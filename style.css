@@ -1,0 +1,97 @@
+.header{
+    background-color: bde0fe;
+    display:flex;
+}
+.image{
+    height:30px;
+    width: 30px;
+    margin:10px;
+    /* border:2px solid black; */
+    /* border-radius:23px; */
+}
+.heading{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left:300px;
+
+}
+.panel{
+    width:600px;
+    display:flex;
+    margin-left:200px;
+    margin-top:10px;
+    border-radius:30px ;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px 2px  black ;
+    /* overflow: visible; */
+}
+.firstcurrency{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.secondcurrency{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.select1{
+    margin-top:40px;
+    margin-left:10px;
+    width:250px;
+    height:35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-color:  black;
+}
+.amount1{
+    display:flex;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.currency{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    height:40px;
+    margin-left:10px;
+}
+
+.input1{
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    height:40px;
+    width:220px;
+}
+.image1{
+    margin-top:100px;
+}
+.select2{
+    margin-top:40px;
+    margin-left:10px;
+    width:250px;
+    height:35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-color:  black;
+}
+.amount2{
+    display:flex;
+    margin-top:20px;
+    margin-left:20px;
+    
+}
+
+.input2{
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    height:40px;
+    width:220px;
+}
+.btn{
+    border:2px solid violet;
+    margin-left:450px;
+}
+.btn:hover{
+    background-color:aqua;
+    color:red;
+}

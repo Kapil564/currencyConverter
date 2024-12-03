@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-orange-300">
+    <div class="header bg-sky-600">
+      <img src="menu.png" class="image" alt="image" />
+      <h1 class="heading h1 text-center font-extrabold">
+        Curreny Exchange calculator
+      </h1>
+    </div>
+    <div class="panel bg-white h-60">
+      <div class="firstcurrency bg-slate-600 border-black border-2 w-72">
+        <div class="Option"  >
+          <select class="select1 bg-gray-400" name="Option1" required>
+            <!-- <label for="select" name="select">Option</label> -->
+            <option>Select Currency</option>
+            <option class="USD2">USD</option>
+            <option class="INR2">INR</option>
+            <option class="AED">AED</option>
+            <option class="AFN">AFN</option>
+            <option class="ALL">ALL</option>
+            <option class="AMD">AMD</option>
+            <option class="AOA">AOA</option>
+            <option class="ARS">ARS</option>
+            <option class="AUD">AUD</option>
+            <option class="AWG">AWG</option>
+            <option class="AZN">AZN</option>
+            <option class="BAM">BAM</option>
+            <option class="BBD">BBD</option>
+            <option class="BDT">BDT</option>
+            <option class="BGN">BGN</option>
+            <option class="BHD">BHD</option>
+            <option class="BIF">BIF</option>
+            <option class="BMD">BMD</option>
+            <option class="BND">BND</option>
+            <option class="BOB">BOB</option>
+            <option class="BRL">BRL</option>
+            <option class="CAD">CAD</option>
+            <option class="USD">USD</option>
+            <option class="NZD">NZD</option>
+            <option class="PKR">PKR</option>
+            <option class="CNY">CNY</option>
+            <option class="CRC">CRC</option>
+            <option class="EGP">EGP</option>
+            <option class="EUR">EUR</option>
+            <option class="HKD">HKD</option>
+            <option class="INR">INR</option>
+            <option class="IDR">IDR</option>
+            <option class="ILS">ILS</option>
+            <option class="JPY">JPY</option>
+            <option class="KPW">KPW</option>
+            <option class="KRW">KRW</option>
+            <option class="KZT">KZT</option>
+            <option class="MYR">MYR</option>
+            <option class="NPR">NPR</option>
+            <option class="QAR">QAR</option>
+            <option class="RUB">RUB</option>
+            <option class="LKR">LKR</option>
+            <option class="GBP">GBP</option>
+            <option class="ZWD">ZWD</option>
+          </select>
+        </div>
+        <div class="amount1 ">
+          <div class="firstamount">
+            <input type="text" name="input1" placeholder="$1.00" class="input1 px-4" />
+          </div>
+        </div>
+      </div>
+      <a href="">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3580/3580097.png"
+          alt="image"
+          class="image1 border-black w-10 h-10"
+      /></a>
+      <div class="secondcurrency bg-red-400 border-black border-2 w-72">
+        <div class="Option">
+          <select class="select2 shadow-sm bg-gray-400" name="Option2" required>
+            <!-- <label for="select" name="select">Option</label> -->
+            <option>Select Currency</option>
+            <option class="USD2">USD</option>
+            <option class="INR2">INR</option>
+            <option class="AED">AED</option>
+            <option class="AFN">AFN</option>
+            <option class="ALL">ALL</option>
+            <option class="AMD">AMD</option>
+            <option class="AOA">AOA</option>
+            <option class="ARS">ARS</option>
+            <option class="AUD">AUD</option>
+            <option class="AWG">AWG</option>
+            <option class="AZN">AZN</option>
+            <option class="BAM">BAM</option>
+            <option class="BBD">BBD</option>
+            <option class="BDT">BDT</option>
+            <option class="BGN">BGN</option>
+            <option class="BHD">BHD</option>
+            <option class="BIF">BIF</option>
+            <option class="BMD">BMD</option>
+            <option class="BND">BND</option>
+            <option class="BOB">BOB</option>
+            <option class="BRL">BRL</option>
+            <option class="CAD">CAD</option>
+            <option class="USD">USD</option>
+            <option class="NZD">NZD</option>
+            <option class="PKR">PKR</option>
+            <option class="CNY">CNY</option>
+            <option class="CRC">CRC</option>
+            <option class="EGP">EGP</option>
+            <option class="EUR">EUR</option>
+            <option class="HKD">HKD</option>
+            <option class="INR">INR</option>
+            <option class="IDR">IDR</option>
+            <option class="ILS">ILS</option>
+            <option class="JPY">JPY</option>
+            <option class="KPW">KPW</option>
+            <option class="KRW">KRW</option>
+            <option class="KZT">KZT</option>
+            <option class="MYR">MYR</option>
+            <option class="NPR">NPR</option>
+            <option class="QAR">QAR</option>
+            <option class="RUB">RUB</option>
+            <option class="LKR">LKR</option>
+            <option class="GBP">GBP</option>
+            <option class="ZWD">ZWD</option>
+          </select>
+        </div>
+        <div class="amount2">
+          <div class="firstamount">
+            <input  aria-setsize="20px" maxlength="20" style="resize: none;" class="input2 px-4"></input>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><button  class="btn bg-green-400 pt-2 pb-2 px-5 shadow-md scroll  mt-14 border-solid rounded-xl"> Convert</button></div>
+    <script src="script.js"></script>
+  </body>
+</html>
